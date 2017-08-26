@@ -179,7 +179,16 @@ var numberFormatters = [
     ' octillion',
     ' nonillion',
     ' decillion',
-    ' undecillion'
+    ' undecillion',
+    ' duodecillion',
+    ' tredecillion',
+    ' quattuordecillion',
+    ' quindecillion',
+    ' sexdecillion',
+    ' septendecillion',
+    ' octodecillion',
+    ' novemdecillion',
+    ' vigintillion'
   ]),
 
   formatEveryThirdPower([
@@ -194,9 +203,20 @@ var numberFormatters = [
     ' Oc',
     ' No',
     ' De',
-    ' Un'
+    ' Und',
+    ' Dud',
+    ' Trd',
+    ' Qad',
+    ' Qid',
+    ' Sxd',
+    ' Spd',
+    ' Ocd',
+    ' Nod',
+    ' Vig'
   ]),
 
+  // Y is the last official SI prefix.
+  // The rest are from here: http://googology.wikia.com/wiki/SI_prefix#Jim_Blowers.27_extension
   formatEveryThirdPower([
     '',
     ' M',
@@ -205,7 +225,20 @@ var numberFormatters = [
     ' P',
     ' E',
     ' Z',
-    ' Y'
+    ' Y',
+    ' N',
+    ' Te',
+    ' Tk',
+    ' TM',
+    ' TG',
+    ' TT',
+    ' TP',
+    ' TE',
+    ' TZ',
+    ' TY',
+    ' TN',
+    ' BT',
+    ' BTk'
   ]),
   scientificNotation
 ];
