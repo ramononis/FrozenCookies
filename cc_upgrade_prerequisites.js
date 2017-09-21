@@ -285,15 +285,15 @@ var upgradeJson = {
     57: {'buildings': [0,1,15], 'upgrades': []},
     58: {'buildings': [0,1,0,15], 'upgrades': []},
     59: {'buildings': [0,1,0,0,15], 'upgrades': []},
-    60: {'buildings': [0,1,0,0,0,15], 'upgrades': []},
-    61: {'buildings': [0,1,0,0,0,0,15], 'upgrades': []},
-    62: {'buildings': [0,1,0,0,0,0,0,15], 'upgrades': []},
-    63: {'buildings': [0,1,0,0,0,0,0,0,15], 'upgrades': []},
-    103: {'buildings': [0,1,0,0,0,0,0,0,0,15], 'upgrades': []},
-    180: {'buildings': [0,1,0,0,0,0,0,0,0,0,15], 'upgrades': []},
-    250: {'buildings': [0,1,0,0,0,0,0,0,0,0,0,15], 'upgrades': []},
-    251: {'buildings': [0,1,0,0,0,0,0,0,0,0,0,0,15], 'upgrades': []},
-    252: {'buildings': [0,1,0,0,0,0,0,0,0,0,0,0,0,15], 'upgrades': []},
+    250: {'buildings': [0,1,0,0,0,15], 'upgrades': []},
+    251: {'buildings': [0,1,0,0,0,0,15], 'upgrades': []},
+    252: {'buildings': [0,1,0,0,0,0,0,15], 'upgrades': []},
+    60: {'buildings': [0,1,0,0,0,0,0,0,15], 'upgrades': []},
+    61: {'buildings': [0,1,0,0,0,0,0,0,0,15], 'upgrades': []},
+    62: {'buildings': [0,1,0,0,0,0,0,0,0,0,15], 'upgrades': []},
+    63: {'buildings': [0,1,0,0,0,0,0,0,0,0,0,15], 'upgrades': []},
+    103: {'buildings': [0,1,0,0,0,0,0,0,0,0,0,0,15], 'upgrades': []},
+    180: {'buildings': [0,1,0,0,0,0,0,0,0,0,0,0,0,15], 'upgrades': []},
     415: {'buildings': [0,1,0,0,0,0,0,0,0,0,0,0,0,0,15], 'upgrades': []},
 
     // Reward cookies
@@ -372,7 +372,34 @@ var upgradeJson = {
     171: {'buildings': [], 'upgrades': [170,184]},
     172: {'buildings': [], 'upgrades': [171,184]},
     173: {'buildings': [], 'upgrades': [172,184]},
-    174: {'buildings': [], 'upgrades': [173,184]}
+    174: {'buildings': [], 'upgrades': [173,184]},
+
+    369: {'buildings': [0,0,15,0,0,0,0,0,0,0,0,15], 'upgrades': [393]},
+    370: {'buildings': [0,0,75,0,0,0,75], 'upgrades': [393]},
+    371: {'buildings': [0,0,0,15,0,0,0,15,0,0,0,0,0,0,0], 'upgrades': [393]},
+    372: {'buildings': [0,0,0,75,0,0,0,0,75,0,0,0,0,0,0], 'upgrades': [394]},
+    373: {'buildings': [0,0,0,0,15,0,0,0,0,0,0,0,15,0,0], 'upgrades': [393]},
+    374: {'buildings': [0,0,0,0,75,0,0,0,0,0,0,75,0,0,0], 'upgrades': [394]},
+    375: {'buildings': [0,0,0,0,0,15,0,0,0,0,15,0,0,0,0], 'upgrades': [393]},
+    376: {'buildings': [0,0,0,0,75,75,0,0,0,0,0,0,0,0,0], 'upgrades': [394]},
+    377: {'buildings': [0,0,0,0,0,0,15,0,0,0,15,0,0,0,0], 'upgrades': [393]},
+    378: {'buildings': [0,0,0,0,0,0,75,0,0,0,0,0,75,0,0], 'upgrades': [394]},
+    379: {'buildings': [0,0,0,0,0,0,0,15,0,15,0,0,0,0,0], 'upgrades': [393]},
+    380: {'buildings': [0,0,75,0,0,0,0,75,0,0,0,0,0,0,0], 'upgrades': [394]},
+    381: {'buildings': [0,0,0,15,0,0,0,0,15,0,0,0,0,0,0], 'upgrades': [393]},
+    382: {'buildings': [0,0,0,0,75,0,0,0,75,0,0,0,0,0,0], 'upgrades': [394]},
+    383: {'buildings': [0,0,0,15,0,0,0,0,0,15,0,0,0,0,0], 'upgrades': [393]},
+    384: {'buildings': [0,0,0,0,0,75,0,0,0,75,0,0,0,0,0], 'upgrades': [394]},
+    385: {'buildings': [0,0,15,0,0,0,0,0,0,0,15,0,0,0,0], 'upgrades': [393]},
+    386: {'buildings': [0,0,0,0,0,0,0,0,0,0,75,0,0,75,0], 'upgrades': [394]},
+    387: {'buildings': [0,0,0,0,0,0,0,0,15,0,0,15,0,0,0], 'upgrades': [393]},
+    388: {'buildings': [0,0,0,0,0,0,0,0,0,0,0,75,0,75,0], 'upgrades': [394]},
+    389: {'buildings': [0,0,0,0,0,15,0,0,0,0,0,0,15,0,0], 'upgrades': [393]},
+    390: {'buildings': [0,0,0,0,0,0,0,0,0,75,0,0,75,0,0], 'upgrades': [394]},
+    391: {'buildings': [0,0,0,0,0,0,0,15,0,0,0,0,0,15,0], 'upgrades': [393]},
+    392: {'buildings': [0,0,0,0,0,0,75,0,0,0,0,0,0,75,0], 'upgrades': [394]},
+    424: {'buildings': [0,0,0,15,0,0,0,0,0,0,0,0,0,0,15], 'upgrades': [393]},
+    443: {'buildings': [0,0,0,0,0,0,0,0,0,0,0,0,75,0,75], 'upgrades': [394]}
 };
 
 var blacklist = [
@@ -400,8 +427,6 @@ var blacklist = [
 
 var seasons = ['','fools','christmas','easter','halloween','valentines'];
 
-var halloweenCookies = [134,135,136,137,138,139,140];
-var christmasCookies = [143,144,145,146,147,148,149];
 var holidayCookies = {
     halloween: [134,135,136,137,138,139,140],
     christmas: [143,144,145,146,147,148,149],
