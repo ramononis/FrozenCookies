@@ -11,6 +11,12 @@
     });
 })(this);
 
+function earnSeasonCookies() {
+    ['Skull cookies','Ghost cookies','Bat cookies','Slime cookies','Pumpkin cookies','Eyeball cookies','Spider cookies',
+        'Christmas tree biscuits','Snowflake biscuits','Snowman biscuits','Holly biscuits','Candy cane biscuits','Bell biscuits','Present biscuits'].forEach((it)=>{Game.Unlock(it);});
+    Game.easterEggs.forEach((it)=>{Game.Unlock(it);});
+}
+
 function setOverrides() {
 
     // Set all cycleable preferencesau
